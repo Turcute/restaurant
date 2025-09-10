@@ -39,7 +39,6 @@ body{
 }
 
 .button-container {
-  display: inline-block;
   border: 1px solid white;
   border-radius: 50px;
   vertical-align: middle;
@@ -47,6 +46,7 @@ body{
   color: white;
   width: 294px;
   height: 98px;
+  margin-bottom: 34px;
 }
 
 
@@ -73,4 +73,35 @@ body{
   line-height: 48px;
   letter-spacing: -0.4px;
   text-align: center;
+}
+
+.restaurantLogo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.textContainer{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.restaurantP{
+  color: white;
+  font-family: "Open Sans" , sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+
+
+.restaurantP2{
+  color: white;
+  font-family: "Open Sans" , sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+
 }
